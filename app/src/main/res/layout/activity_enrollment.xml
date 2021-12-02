@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:rotationX="-4">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="1250dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="151dp"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/emailInput"
+            android:layout_centerHorizontal="true"
+            android:hint="Age" />
+
+        <EditText
+            android:id="@+id/species"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/emailInput"
+            android:layout_centerHorizontal="true"
+            android:hint="Species" />
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/emailInput"
+            android:layout_centerHorizontal="true"
+            android:hint="id" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="enroll"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="14dp">
+
+        <Button
+            android:id="@+id/enrollment"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#fff000"
+            android:padding='0dp'
+            android:text="enrollment" />
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#fff000"
+            android:padding='0dp'
+            android:text="confirm" />
+
+        <Button
+            android:id="@+id/information"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#fff000"
+            android:padding='0dp'
+            android:text="information" />
+
+    </LinearLayout>
+</LinearLayout>
